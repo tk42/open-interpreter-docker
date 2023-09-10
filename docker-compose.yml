@@ -1,0 +1,7 @@
+services:
+  interpreter:
+    image: ghcr.io/tk42/open-interpreter-docker:latest
+    env_file:
+      - .env
+    stdin_open: true
+    tty: true
